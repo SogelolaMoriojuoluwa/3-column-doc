@@ -81,12 +81,12 @@ p {
     color: hsl(0, 0%, 95%);
     border: 3px solid hsl(0, 0%, 95%);
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 753px) {
     .container {
         display: grid;
         grid-template-columns: auto;
         width: 300px;
-        margin-top: 20px;
+        margin-top: 30px;
         margin-bottom: 20px;
     }
     
