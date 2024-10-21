@@ -2,23 +2,26 @@ body {
 
     background-color:hsl(0, 0%, 95%);
     font-size: 15px;
-    
+    padding: 20px;
+    font-family: "Lexend Deca", sans-serif;
+   
 }
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 750px;
+    justify-content: center;
+    max-width: 800px;
     margin: 100px auto;
-    border: 2px solid transparent;
-    border-radius: 20px;
-    height: 430px;
-
     box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+   
 
 }
 .first-col {
 background-color: hsl(31, 77%, 52%);
 padding: 50px 30px;
+
 }
 
 .second-col {
@@ -81,13 +84,13 @@ p {
     color: hsl(0, 0%, 95%);
     border: 3px solid hsl(0, 0%, 95%);
 }
-@media screen and (max-width: 753px) {
+@media screen and (max-width: 653px) {
+   
     .container {
-        display: grid;
-        grid-template-columns: auto;
-        width: 300px;
-        margin-top: 30px;
-        margin-bottom: 20px;
+        display: block;
+        margin: 10px auto;
+       
     }
+   
     
 }
